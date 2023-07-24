@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/audio_btn_shape.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/backgroundcolor_btn_shape.xml" value="0.2735" />
+        <entry key="app/src/main/res/drawable/custom_seekbar_progress.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/custom_seekbar_thumb.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/dark_btn_shape.xml" value="0.2735" />
+        <entry key="app/src/main/res/drawable/light_btn_shape.xml" value="0.2735" />
+        <entry key="app/src/main/res/drawable/setting_btn_shape.xml" value="0.161" />
+        <entry key="app/src/main/res/layout/activity_audio.xml" value="0.2703811645507812" />
+        <entry key="app/src/main/res/layout/activity_backgroundcolor.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29594421386718744" />
+        <entry key="app/src/main/res/layout/activity_startsearch.xml" value="0.22791595458984387" />
+        <entry key="app/src/main/res/layout/background_color.xml" value="0.19293478260869565" />
+        <entry key="app/src/main/res/layout/backgroundcoloractivity.xml" value="0.2625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

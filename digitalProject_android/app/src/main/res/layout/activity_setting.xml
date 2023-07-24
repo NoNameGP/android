@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0d0d">
+
+    <View
+        android:id="@+id/banner_v"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#191919"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_iv"
+        android:layout_width="13.5dp"
+        android:layout_height="23.6dp"
+        android:background="#a6afaf"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:background="#93fbff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center_horizontal"
+        android:text='김덕성 님'
+        android:textColor="#f3f3fc"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_v"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kakaoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="53dp"
+        android:gravity="center_horizontal"
+        android:text="카카오로그인"
+        android:textColor="#a6afaf"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ID"
+        app:layout_constraintTop_toBottomOf="@+id/banner_v"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/box"
+        android:layout_width="30dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="53dp"
+        android:background="#ffe73e"
+        app:layout_constraintStart_toEndOf="@+id/kakaoLogin"
+        app:layout_constraintTop_toBottomOf="@+id/banner_v"
+        tools:ignore="MissingConstraints"/>
+
+
+    <LinearLayout
+        android:id="@+id/colorSetting"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/setting_btn_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_v"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#191919"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:text="화면 설정" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/videoSetting"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/setting_btn_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorSetting"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#191919"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:text="음성 안내" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/setting_btn_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoSetting"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#191919"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:text="글씨 크기" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
